@@ -1,0 +1,38 @@
+/*
+COLORS:
+
+BURGUNDY: #5F034C
+LIGHT PINK: #FAD5CC, rgba(250,213,204, 0.8)
+BLUSH: #F98F84, rgba(249,143,132, 0.8)
+
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+  color: #777;
+  padding: 30px;
+}
+
+.header {
+	height: 95vh;
+	background-image: linear-gradient(
+			to right bottom,
+			rgba(250, 213, 204, 0.5),
+			rgba(249, 143, 132, 0.8)
+		),
+    url(../img/hero.jpg);
+	background-size: cover;
+  background-position: top;
+  
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%)
+}
