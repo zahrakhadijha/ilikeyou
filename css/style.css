@@ -48,3 +48,21 @@ body {
   height: 50px;
 
 }
+
+.heading-primary {
+  color: #fff;
+  font-family: 'Piazzolla', serif;
+
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 600;
+
+}
+
+.heading-primary-sub {
+  display: block;
+
+}
