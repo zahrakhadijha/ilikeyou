@@ -48,18 +48,16 @@ body {
 }
 
 .header-container {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
- 
-
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .heading-primary {
 	color: #fff;
-  font-family: 'Piazzolla', serif;
-  text-align: center;
+	font-family: 'Piazzolla', serif;
+	text-align: center;
 }
 
 .heading-primary-main {
