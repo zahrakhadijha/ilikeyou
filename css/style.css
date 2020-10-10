@@ -58,6 +58,7 @@ body {
 	color: #fff;
 	font-family: 'Piazzolla', serif;
 	text-align: center;
+	backface-visibility: hidden;
 }
 
 .heading-primary-main {
