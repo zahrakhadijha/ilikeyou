@@ -8,14 +8,16 @@ BLUSH: #F98F84, rgba(249,143,132, 0.8)
 
 */
 
-* {
+*,
+*::after,
+*::before {
 	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%
 }
 
 body {
@@ -24,7 +26,8 @@ body {
 	/* font-size: 14px; */
 	line-height: 1.7;
 	color: #777;
-	padding: 3rem;
+  padding: 3rem;
+  box-sizing: border-box;
 }
 
 .header {
