@@ -179,7 +179,7 @@ body {
 	color: #777;
 }
 
-.btn-white::after {
+.btn--white::after {
 	background-color: #fff;
 }
 
