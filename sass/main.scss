@@ -29,6 +29,8 @@ body {
 	box-sizing: border-box;
 }
 
+// ---------- HEADER ------------
+
 .header {
 	height: 95vh;
 	background-image: linear-gradient(
@@ -88,7 +90,7 @@ body {
 	}
 }
 
-/* ------- ANIMATION KEYFRAMES ------- */
+// ---------- ANIMATION KEYFRAMES ------------
 
 @keyframes moveInLeft {
 	0% {
@@ -134,7 +136,7 @@ body {
 	}
 }
 
-/* ------------BUTTON ------------ */
+// ---------- BUTTON ------------
 
 .btn {
 	&:link,
@@ -152,6 +154,11 @@ body {
 	&:hover {
 		transform: translateY(-0.3rem);
 		box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+
+		&::after {
+			transform: scaleX(1.4) scaleY(1.6);
+			opacity: 0;
+		}
 	}
 
 	&:active {
@@ -177,15 +184,10 @@ body {
 		color: $color-grey-dark;
 		font-weight: 800;
 		font-family: 'Roboto', sans-serif;
-	}
 
-	&--white::after {
-		background-color: $color-white;
-	}
-
-	&:hover::after {
-		transform: scaleX(1.4) scaleY(1.6);
-		opacity: 0;
+		&::after {
+			background-color: $color-white;
+		}
 	}
 
 	&--animated {
