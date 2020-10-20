@@ -4,6 +4,7 @@ $color-primary-light: #FAD5CC;
 $color-primary-dark: #5F034C;
 
 $color-grey-dark: #777;
+$color-white: #fff;
 
 
 *,
@@ -63,7 +64,7 @@ body {
 }
 
 .heading-primary {
-	color: #fff;
+	color: $color-white;
 	font-family: 'Piazzolla', serif;
 	text-align: center;
 	backface-visibility: hidden;
@@ -173,12 +174,12 @@ body {
 }
 
 .btn--white {
-	background-color: #fff;
+	background-color: $color-white;
 	color: $color-grey-dark;
 }
 
 .btn--white::after {
-	background-color: #fff;
+	background-color: $color-white;
 }
 
 .btn:hover::after {
