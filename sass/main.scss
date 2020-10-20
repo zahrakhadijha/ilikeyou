@@ -175,7 +175,9 @@ body {
 
 .btn--white {
 	background-color: $color-white;
-	color: $color-grey-dark;
+  color: $color-grey-dark;
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
 }
 
 .btn--white::after {
