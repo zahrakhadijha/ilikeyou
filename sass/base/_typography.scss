@@ -1,5 +1,5 @@
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-weight: 400;
 	/* font-size: 14px; */
 	line-height: 1.7;
@@ -10,7 +10,7 @@ body {
 
 .heading-primary {
 	color: $color-white;
-	font-family: 'Piazzolla', serif;
+	font-family: 'Quicksand', sans-serif;
 	text-align: center;
 	backface-visibility: hidden;
 	margin-bottom: 6rem;
@@ -33,4 +33,15 @@ body {
 		font-weight: 300;
 		animation: moveInRight 3s ease-out;
 	}
+}
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
 }
